@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.head_bar {
+  background-color: #A1DD70;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+.input_section > h2 {
+  text-align: center;
+  padding: 10px;
+  color: #A1DD70;
+}
+
+.input_section > form > .input {
+  margin: 8px 0;
+}
+
+.input_section > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+
+.input_section > form > button {
+  background-color: #A1DD70;
+  color: white;
+  width: 100%;
+  padding: 8px;
+  border: 3px solid #A1DD70;
+  border-radius: 5px;
+  display: block;
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input_section > form > button:hover {
+  background-color: #EAEAEA;
+  color: black;   
+}
+
+.input_section > form > .input > label {
+  font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.book_shelf {
+  border: 1px solid black;
+  margin: 16px 0 0 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px grey;
+  
+}
+
+.book_shelf > h2 {
+  color:#A1DD70;
+  text-align: center;
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.inside {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 16px;
+  display: flex;
+}
+
+.inside > .element h3,
+p {
+  margin: 10px 0;
+}
+
+.delete {
+  background: url("../assets/trash.svg");
+  width: 3rem;
+  height: 3rem;
+  background-size: contain;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.cross {
+  width: 3rem;
+  height: 3rem;
+  background: url("../assets/cross.svg");
+  background-size: contain;
+  margin-left: auto;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.check {
+  width: 3rem;
+  height: 3rem;
+  background: url("../assets/check.svg");
+  background-size: contain;
+  margin-left: auto;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
